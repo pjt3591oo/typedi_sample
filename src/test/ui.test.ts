@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 
-import UI from '../ui';
-import API from '../api';
+import UI from '../lib/ui';
+import API from '../lib/api';
 
 class FakeAPI extends API{
   constructor() {
